@@ -525,7 +525,8 @@ aside h3 {
   font-size: 1.05rem;
   min-height: 75px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   padding: 1.5rem;
 }
 

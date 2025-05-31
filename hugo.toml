@@ -1,5 +1,20 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://interactmsz.hu/'
+languageCode = 'hu-hu'
+title = 'Interact Club Mátészalka'
 
 theme = "newsroom"
+
+canonifyurls = true
+
+[pagination]
+disableAliases = false
+pagerSize = 10
+path = 'page'
+
+[permalinks]
+pages = ':filename/'
+
+[params]
+logo = "/logo/interactmsz-logo.svg" # if the value is an empty string, the site title will be shown instead
+faviconsDir = "images/icons/" # with a trailing slash
+blogDir = "publikációk" # edit

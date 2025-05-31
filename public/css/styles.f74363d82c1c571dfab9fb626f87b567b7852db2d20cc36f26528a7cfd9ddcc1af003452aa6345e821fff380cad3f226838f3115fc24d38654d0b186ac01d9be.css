@@ -20,7 +20,7 @@ html[data-mode="dim"] {
   --bg: var(--bg-dark);
   --text: var(--light);
   --accent: var(--bubble);
-  --theme: rgb(0,161,225);
+  --theme: rgb(48,209,88);
 }
 
 html[data-mode="dim"] * {
@@ -42,7 +42,7 @@ html[data-mode="dim"] .color_choice::after {
     --bg: var(--bg-dark);
     --text: var(--light);
     --accent: var(--bubble);
-    --theme: rgb(0,161,225);
+    --theme: rgb(48,209,88);
   }
   html:not([data-mode="lit"]) * {
     box-shadow: none !important;

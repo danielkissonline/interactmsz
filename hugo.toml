@@ -18,3 +18,5 @@ pages = ':filename/'
 logo = "/logo/interactmsz-logo.svg" # if the value is an empty string, the site title will be shown instead
 faviconsDir = "images/icons/" # with a trailing slash
 blogDir = "publikációk" # edit
+
+color_choice = "FFFFFF"

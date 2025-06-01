@@ -1,8 +1,8 @@
-- item: About
-  url: about/
-- item: Blog
-  url: ""
-- item: Category
-  url: categories
-- item: Tag
+- item: Rólunk
+  url: rólunk/
+- item: Összes bejegyzés
+  url: /bejegyzések
+- item: Bejegyzések téma szerint
   url: tags
+- item: Kapcsolat
+  url: /kapcsolat

@@ -1,0 +1,22 @@
+[archive]
+  other = "Összes bejegyzés"
+[archive_text]
+  other = "Archívum"
+[author_profile]
+  other = "{{ . }}'s profile"
+[designed_by]
+  other = "Designed by  <a href = '{{ .url }}' target = '_blank' title = 'Linkedin Profile' rel = 'nonopener'>{{ .name }}</a>"
+[go_back]
+  other = "Vissza"
+[latest_posts]
+  other = "Új bejegyzések"
+[link_copied]
+  other = "Link másolva!"
+[not_found_text]
+  other = "Ez az oldal sajnos nem található."
+[not_found_title]
+  other = "Hiba!"
+[share_story]
+  other = "Bejegyzés megosztása"
+[toggle_dark_mode]
+  other = "sötét/világos mód"

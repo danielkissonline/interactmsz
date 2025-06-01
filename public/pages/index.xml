@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Interact Club Mátészalka</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on Interact Club Mátészalka</description>
+    <generator>Hugo</generator>
+    <language>hu</language>
+    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rólunk</title>
+      <link>http://localhost:1313/rolunk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rolunk/</guid>
+      <description>&lt;h3 id=&#34;vivamus-lacus-ullamcorper-etiam&#34;&gt;Vivamus Lacus Ullamcorper Etiam&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim, metus ac tempus sollicitudin, arcu lacus efficitur ante, at vestibulum odio neque a purus. Integer nec turpis eu orci convallis fermentum. Curabitur nec lorem eu urna aliquet facilisis.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;proin-gravida-nibh-vel-velit&#34;&gt;Proin Gravida Nibh Vel Velit&lt;/h3&gt;&#xA;&lt;p&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer lacinia sollicitudin massa, non vehicula nisi vestibulum ut. Nulla facilisi. Pellentesque ac eros nec justo rutrum volutpat.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

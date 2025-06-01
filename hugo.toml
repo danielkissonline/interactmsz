@@ -1,10 +1,12 @@
 baseURL = 'https://interactmsz.hu/'
-languageCode = 'hu-hu'
+languageCode = 'hu'
+defaultContentLanguage = "hu"
 title = 'Interact Club Mátészalka'
 
 theme = "newsroom"
 
 canonifyurls = true
+pluralizeListTitles = false
 
 [pagination]
 disableAliases = false
@@ -15,8 +17,7 @@ path = 'page'
 pages = ':filename/'
 
 [params]
-logo = "/logo/interactmsz-logo.svg" # if the value is an empty string, the site title will be shown instead
-faviconsDir = "images/icons/" # with a trailing slash
-blogDir = "publikációk" # edit
+logo = "/logo/interactmsz-logo.svg"
+blogDir = "bejegyzések" # edit
 
 color_choice = "FFFFFF"

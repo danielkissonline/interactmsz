@@ -1,0 +1,15 @@
+<div class="archive wrap mt">
+  <h1 class="archive_title">{{ T "archive" }}</h1>
+  {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "").ByPublishDate.Reverse }}
+  {{- range $paginator.Pages }}
+  <a class="archive_item" href="{{ .Permalink }}">
+      {{ if not (eq .Params.showDate false) }}
+        <time class="post_date" datetime="{{ .Date }}">{{ partial "date-hu.html" .Date }}</time>
+      {{ end }}
+    <h3 class="article_title">{{ .Title }}</h3>
+    {{- with .Summary -}}
+    <p>{{ truncate 150 .  }}</p>
+    {{- end -}}
+  </a>
+  {{- end -}}
+</div>

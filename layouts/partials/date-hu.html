@@ -1,0 +1,4 @@
+{{- $monthsHu := dict "January" "január" "February" "február" "March" "március" "April" "április" "May" "május" "June" "június" "July" "július" "August" "augusztus" "September" "szeptember" "October" "október" "November" "november" "December" "december" -}}
+{{- $monthEn := .Format "January" -}}
+{{- $monthHu := index $monthsHu $monthEn -}}
+{{- printf "%d. %s %d." (.Year) $monthHu (.Day) -}}

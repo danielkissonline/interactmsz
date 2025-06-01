@@ -306,7 +306,7 @@ aside h3 {
 }
 
 .article_title {
-  margin: 0;
+  color: var(--theme);
 }
 
 .article_excerpt {
@@ -839,7 +839,7 @@ aside h3 {
 }
 
 .post_date {
-  color: var(--theme);
+  color: var(--grey);
 }
 
 .post_copy {
@@ -915,6 +915,7 @@ aside h3 {
 
 .post_title {
   margin: -1rem 0 1rem;
+  color: var(--theme);
 }
 
 .post_time {
@@ -1023,6 +1024,7 @@ aside h3 {
 
 .archive_title {
   margin: 0;
+  color: var(--theme);
 }
 
 .pale {
@@ -1150,7 +1152,7 @@ aside h3 {
 
 .never {
   min-height: 60vh;
-  background: url("../images/sitting.svg");
+  background: url("../images/interactmsz-404.svg");
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1160,6 +1162,7 @@ aside h3 {
 
 .never_title {
   text-align: left;
+  color: var(--theme);
 }
 
 .icon {
